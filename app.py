@@ -62,7 +62,7 @@ with col2:
 st.sidebar.markdown("---")
 st.sidebar.subheader("💳 Abonament Premium")
 
-st.sidebar.link_button("🚀 Abonează-te (29 EUR / lună)", "https://buy.stripe.com/14A14o3W19ub8S35azZ000")
+https://buy.stripe.com/3cI28s6Ix8q73xJauT2ZO01
 
 st.sidebar.markdown(
     f'''<a href="{stripe_link}" target="_blank" style="text-decoration:none;">

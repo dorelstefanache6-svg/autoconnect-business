@@ -12,7 +12,7 @@ if "database" not in st.session_state:
     st.session_state.database = []
 
 col1, col2 = st.columns([1, 1])
-
+)
 with col1:
     st.subheader("Adaugă Client & Programare Nouă")
     nume = st.text_input("Nume complet client")
@@ -61,4 +61,4 @@ with col2:
                 
 st.sidebar.markdown("---")
 st.sidebar.subheader("💳 Abonament Premium")
-st.sidebar.link_button("💳 Plătește Abonamentul (29 EUR)", "https://buy.stripe.com/8x23cu93F53R6nWCRgCo001")
+st.sidebar.button("📩 Comandă / Contactează-ne")

@@ -58,12 +58,16 @@ with col2:
                 st.write(f"⏰ **Ora:** {item['ora']}")
                 st.write(f"Status: {item['status']}")
                 
-                # Buton interactiv direct pentru WhatsApp
-                st.markdown(
-                    f'''<a href="{item['link_wa']}" target="_blank">
-                        <button style="background-color:#25D366; color:white; border:none; padding:10px 18px; border-radius:8px; font-weight:bold; cursor:pointer;">
-                            📲 Trimite Notificare pe WhatsApp
-                        </button>
-                    </a>''', 
-                    unsafe_allow_html=True
-                )
+                
+st.sidebar.markdown("---")
+st.sidebar.subheader("💳 Abonament Premium")
+
+stripe_link = "https://buy.stripe.com/14A14o3w19ub8535az2000"
+
+st.sidebar.markdown(
+    f'''<a href="{stripe_link}" target="_blank" style="text-decoration:none;">
+    <button style="width:100%; background-color:#635BFF; color:white; padding:12px; border:none; border-radius:8px; font-weight:bold; font-size:16px; cursor:pointer;">
+    🚀 Abonează-te (29 EUR / lună)
+    </button></a>''',
+    unsafe_allow_html=True
+)

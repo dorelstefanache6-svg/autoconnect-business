@@ -62,7 +62,7 @@ with col2:
 st.sidebar.markdown("---")
 st.sidebar.subheader("💳 Abonament Premium")
 
-stripe_link = "https://buy.stripe.com/14A14o3w19ub8535az2000"
+stripe_link = "https://buy.stripe.com/14A14o3wl9ub8535az2000"
 
 st.sidebar.markdown(
     f'''<a href="{stripe_link}" target="_blank" style="text-decoration:none;">
